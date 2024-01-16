@@ -378,4 +378,124 @@ button {
 .card-3 {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background-color: rgba(233, 68, 68, 0.05);
+  margin-bottom: 0;
+}
+
+/* deals-discounts section styles */
+.deals-discounts {
+  margin-top: 100px;
+}
+.deals-discounts h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.deals-discounts p {
+  width: 643px;
+  margin: 0 auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+.bg-img-1 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background-image: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+.bg-img-2 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background-image: url("../Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+.bg-img-3 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background-image: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-container {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  position: relative;
+  top: 56px;
+  right: 56px;
+  bottom: 55px;
+  left: 535px;
+  padding: 50px;
+}
+.bg-img-2 > .package-container {
+  top: 56px;
+  right: 535px;
+  bottom: 55px;
+  left: 56px;
+}
+.package-top i {
+  height: 24px;
+  color: #ff5400;
+}
+.package-top i .icon-text {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 8px;
+  margin-right: 24px;
+}
+
+.package-container h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+.package-container p {
+  width: 452px;
+  color: #5a5a5d;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 0;
+  margin-bottom: 16px;
+}
+.package-container h4 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.package-container button {
+  width: 150px;
+  height: 52px;
+  padding: 14px 24px 13px 25px;
+}
+.packages-btn {
+  display: flex;
+  justify-content: center;
+}
+.packages-btn button {
+  width: 210px;
+  margin-top: 48px;
 }
